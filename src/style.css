@@ -10,7 +10,7 @@ body {
 
 .container {
   margin: 120px auto;
-  max-width: 600px;
+  max-width: 650px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -56,7 +56,7 @@ form {
 }
 
 .results {
-  font-size: 16px;
+  font-size: 20px;
   color: #0c4db9;
   background-color: #bad6d6;
   padding: 20px;
@@ -71,7 +71,7 @@ a {
 
 footer {
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 30px;
   color: #0c4db9;
   background: #bad6d6;
