@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>AI Generator</title>
   </head>
   <body>
     <div class="container">
-      <header>
+      <div class="container2">
         <h1>AI Affirmation Generator</h1>
-      </header>
-      <main>
+
         <form id="affirmation-generator-form">
           <input
             type="text"
-            placeholder="Enter ..."
+            placeholder="Enter Affirmation Topic..."
             autofocus
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" class="submitButton" />
         </form>
-        <div class="results" id="affirmation"></div>
-      </main>
+        <p class="examples">Example: Health, Love, Focus, Goals</p>
+      </div>
+      <div class="results" id="affirmation"></div>
 
       <footer>
         This project was coded by Marisa Salazar and is on
