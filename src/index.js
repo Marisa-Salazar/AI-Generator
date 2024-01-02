@@ -18,6 +18,10 @@ function generateAffirmation(event) {
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   //Make call to Api
 
+  let affirmationElement = document.querySelector("#affirmation");
+  affirmationElement.classList.remove("hidden");
+  affirmationElement.innerHTML = " ✨Generating Affirmation For You✨";
+
   axios.get(apiUrl).then(displayAffirmation);
 }
 

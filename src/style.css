@@ -71,15 +71,17 @@ form {
   border-radius: 10px;
 }
 
+.hidden {
+  display: none;
+}
+
 a {
-  color: black;
+  color: white;
 }
 
 footer {
   text-align: center;
   font-size: 16px;
   margin-top: 30px;
-  color: #0c4db9;
-  background: #bad6d6;
-  border-radius: 5px;
+  color: #bad6d6;
 }
